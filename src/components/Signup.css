@@ -1,0 +1,56 @@
+/* Base styles */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f6f8;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container */
+#signupContainer {
+  max-width: 700px;
+  margin: 80px auto;
+  padding: 30px;
+  background: transparent;
+  border-radius: 10px;
+}
+
+/* Headings */
+#signupHeading,
+#confirmHeading {
+  text-align: center;
+  color: #34495e;
+  margin-bottom: 25px;
+}
+
+/* Input fields */
+.signup-input,
+.confirm-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+/* Buttons */
+.signup-button,
+.confirm-button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 20px;
+  background-color: #2072a1;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 8px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.signup-button:hover,
+.confirm-button:hover {
+  background-color: #1c677e;
+}

@@ -1,0 +1,16 @@
+/* src/components/BackgroundLayout.css */
+
+.background-wrapper {
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: background-image 0.5s ease-in-out;
+}
+
+.background-overlay {
+  background-color: rgba(0, 0, 0, 0.5); /* Optional overlay */
+  min-height: 100vh;
+  padding: 2rem;
+  color: white;
+}
